@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/vertex/impress-dune
+LOCAL_PATH := device/vertex/impress-dune-twrp
 
-ifeq ($(TARGET_DEVICE),impress-dune)
+ifeq ($(TARGET_DEVICE),impress-dune-twrp)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
