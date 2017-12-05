@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_impress-dune-twrp.mk
+    $(LOCAL_DIR)/omni_duna.mk
