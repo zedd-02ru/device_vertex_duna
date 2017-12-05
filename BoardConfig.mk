@@ -1,4 +1,4 @@
-DEVICE_PATH := device/vertex/dune-twrp
+DEVICE_PATH := device/vertex/impress-dune-twrp
 # Platform
 TARGET_BOARD_PLATFORM := mt6737m
 TARGET_NO_BOOTLOADER := true
