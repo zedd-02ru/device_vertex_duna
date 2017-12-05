@@ -1,2 +1,2 @@
-add_lunch_combo omni_impress-dune-twrp-userdebug
-add_lunch_combo omni_impress-dune-twrp-eng
+add_lunch_combo omni_duna-userdebug
+add_lunch_combo omni_duna-eng
