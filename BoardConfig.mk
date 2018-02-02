@@ -104,3 +104,4 @@ TWHAVE_SELINUX := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
 BOARD_USES_MTK_HARDWARE:=true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
+TW_DEVICE_VERSION := Uznaikaz
