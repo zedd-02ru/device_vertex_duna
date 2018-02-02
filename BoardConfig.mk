@@ -64,7 +64,7 @@ MTK_HARDWARE := true
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # TWRP stuff
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/twrp.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 #Fix Wipe
 BOARD_SUPPRESS_SECURE_ERASE := true
 # Graphics
