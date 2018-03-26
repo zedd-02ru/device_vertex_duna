@@ -42,20 +42,6 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 -
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Vertex,Impress,Dune,Impress_Dune
 
-# Disable memcpy opt (for audio libraries)
-#TARGET_CPU_MEMCPY_OPT_DISABLE := true
-
-# EGL
-#BOARD_EGL_CFG := $(DEVICE_PATH)/egl.cfg
-#USE_OPENGL_RENDERER := true
-#BOARD_EGL_WORKAROUND_BUG_10194508 := true
-#NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
-#TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
-#TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
-#MTK_HWC_SUPPORT := yes
-#MTK_HWC_VERSION := 1.4.1
-#MTK_GPU_VERSION := mali midgard r7p0
-
 # MTK Hardware
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
@@ -69,13 +55,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 #Fix Wipe
 BOARD_SUPPRESS_SECURE_ERASE := true
 
-# Graphics
-#BOARD_USE_FRAMEBUFFER_ALPHA_CHANNEL := true
-#TARGET_DISABLE_TRIPLE_BUFFERING := false
-#TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
-#TARGET_RECOVERY_LCD_BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
-#BRIGHTNESS_SYS_FILE := /sys/class/leds/lcd-backlight/brightness
-#RECOVERY_NEED_SELINUX_FIX := true
 #RECOVERY_GRAPHICS_USE_LINELENGTH := true
 #RECOVERY_SDCARD_ON_DATA := true
 
@@ -102,7 +81,11 @@ TW_INCLUDE_CRYPTO := true
 #TW_INCLUDE_NTFS_3G := true
 #TW_NO_EXFAT_FUSE := true
 TWHAVE_SELINUX := true
+
+# DEBUG (BOTH needed to enable logcat)
+#TARGET_USES_LOGD := true
 #TWRP_INCLUDE_LOGCAT := true
+
 #TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MTP_DEVICE := /dev/mtp_usb
 #BOARD_USES_MTK_HARDWARE:=true
