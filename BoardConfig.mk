@@ -15,7 +15,7 @@ TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Vertex_Dune
+TARGET_BOOTLOADER_BOARD_NAME := Vertex_Impress_Dune
 
 TARGET_USERIMAGES_USE_EXT4 := true
 
@@ -40,7 +40,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board 1471342055
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Impress,Dune,Impress_Dune
+TARGET_OTA_ASSERT_DEVICE := Vertex,Impress,Dune,Impress_Dune
 
 # Disable memcpy opt (for audio libraries)
 #TARGET_CPU_MEMCPY_OPT_DISABLE := true
