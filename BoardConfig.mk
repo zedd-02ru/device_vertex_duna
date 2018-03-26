@@ -1,4 +1,4 @@
-DEVICE_PATH := device/vertex/duna
+DEVICE_PATH := device/vertex/impress
 # Platform
 TARGET_BOARD_PLATFORM := mt6737m
 TARGET_NO_BOOTLOADER := true
