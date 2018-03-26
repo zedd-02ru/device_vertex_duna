@@ -6,7 +6,7 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_RELEASE_NAME := Vertex
 PRODUCT_NAME := omni_impress
-PRODUCT_DEVICE := Dune
+PRODUCT_DEVICE := impress
 PRODUCT_BRAND := Vertex
 PRODUCT_MODEL := Vertex Impress Dune
 PRODUCT_MANUFACTURER := Vertex
