@@ -1,2 +1,2 @@
-add_lunch_combo omni_duna-userdebug
-add_lunch_combo omni_duna-eng
+add_lunch_combo omni_impress-userdebug
+add_lunch_combo omni_impress-eng
