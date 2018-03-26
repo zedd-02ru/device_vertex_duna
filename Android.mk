@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/vertex/impress
+# LOCAL_PATH := device/vertex/impress
 
 ifeq ($(TARGET_DEVICE),impress)
 
