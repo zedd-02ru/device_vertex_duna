@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/vertex/duna
+LOCAL_PATH := device/vertex/impress
 
-ifeq ($(TARGET_DEVICE),duna)
+ifeq ($(TARGET_DEVICE),impress)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
